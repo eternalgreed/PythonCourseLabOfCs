@@ -4,7 +4,7 @@ from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Protocol
 
 
-@dataclass(frozen=True)
+@dataclass
 class Student:
     id: int
     first_name: str
